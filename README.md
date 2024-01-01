@@ -1,41 +1,41 @@
-# Estudos e Testes em TypeScript - Curso de POO
+# TypeScript Studies and Tests - OOP Course
 
-Bem-vindo ao repositório de Estudos e Testes em TypeScript, derivado do curso de Programação Orientada a Objetos (POO). Este projeto visa consolidar o aprendizado por meio da prática e experimentação de conceitos abordados no curso, utilizando a linguagem TypeScript.
+Welcome to the repository for TypeScript Studies and Tests, derived from the Object-Oriented Programming (OOP) course. This project aims to solidify learning through hands-on practice and experimentation with concepts covered in the course, utilizing the TypeScript language.
 
-## Visão Geral
+## Overview
 
-O objetivo principal deste repositório é oferecer um ambiente onde seja possível:
+The main goal of this repository is to provide an environment where you can:
 
-- Aplicar os conceitos aprendidos no curso de POO utilizando TypeScript.
-- Realizar experimentos e testes práticos para aprofundar o entendimento.
-- Construir pequenos projetos exemplares para consolidar o conhecimento adquirido.
+- Apply concepts learned in the OOP course using TypeScript.
+- Conduct experiments and practical tests to deepen understanding.
+- Build small exemplary projects to reinforce acquired knowledge.
 
-## Conteúdo
+## Contents
 
-1. **Exemplos de Código:** Explore uma variedade de exemplos de código em TypeScript, demonstrando a aplicação de conceitos de Programação Orientada a Objetos.
+1. **Code Examples:** Explore a variety of TypeScript code examples demonstrating the application of Object-Oriented Programming concepts.
 
-2. **Projetos Práticos:** Desenvolva projetos práticos que abordam desafios específicos relacionados ao curso, proporcionando uma experiência hands-on.
+2. **Practical Projects:** Develop practical projects addressing specific challenges related to the course, providing a hands-on experience.
 
-3. **Testes Unitários:** Implemente testes unitários para garantir a robustez e a confiabilidade do código produzido durante os estudos.
+3. **Unit Tests:** Implement unit tests to ensure the robustness and reliability of the code produced during the studies.
 
-## Estrutura do Projeto
+## Project Structure
 
-- **/src:** Contém o código-fonte principal dos exemplos e projetos práticos.
-- **/tests:** Inclui os testes unitários para validar a funcionalidade do código.
-- **/docs:** Documentação adicional, incluindo tutoriais e informações relevantes.
+- **/src:** Contains the main source code for examples and practical projects.
+- **/tests:** Includes unit tests to validate code functionality.
+- **/docs:** Additional documentation, including tutorials and relevant information.
 
-## Como Começar
+## Getting Started
 
-1. Clone este repositório: `git clone https://github.com/seu-username/estudos-typescript-poo.git`
-2. Navegue até o diretório do projeto: `cd estudos-typescript-poo`
-3. Instale as dependências: `npm install`
-4. Execute os testes: `npm test`
-5. Explore os exemplos de código e projetos práticos na pasta `/src`.
+1. Clone this repository: `git clone https://github.com/your-username/typescript-oop-studies.git`
+2. Navigate to the project directory: `cd typescript-oop-studies`
+3. Install dependencies: `npm install`
+4. Run tests: `npm test`
+5. Explore code examples and practical projects in the `/src` folder.
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você encontrar bugs, melhorias ou tiver sugestões, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome! If you find bugs, improvements, or have suggestions, feel free to open an issue or submit a pull request.
 
-## Licença
+## License
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
