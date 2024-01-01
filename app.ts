@@ -1,36 +1,10 @@
-abstract class Account {
-    name: string
-    accountNumber: number
-    balance: number = 0
-
-
-    constructor(name: string, accountNumber: number){
-        this.name = name
-        this.accountNumber = accountNumber
-    }
-
-    deposit = () => {
-        console.log('Voce depositou')
-    }
-
-    withdraw = () => {
-        console.log('Voce sacou')
-    }
-
-    getBalance = () => {
-        console.log(this.balance)
-    }
-}
-
-class PeopleAccount extends Account {
-    doc_id: number
-
-    constructor(doc_id: number, name: string, accountNumber: number){
-        super(name, accountNumber)
-        this.doc_id = doc_id
-    }
-}
+import { CompanyAccount } from './class/CompanyAccount'
+import { DioAccount } from './class/DioAccount'
+import { PeopleAccount } from './class/PeopleAccount'
 
 
 const peopleaccount: PeopleAccount = new PeopleAccount(1, 'Nath', 10)
-console.log(peopleaccount)
+peopleaccount.deposit()
+
+const companyAccount: CompanyAccount = new CompanyAccount('Dio', 20)
+companyAccount.deposit()
