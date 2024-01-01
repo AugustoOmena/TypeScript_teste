@@ -1,19 +1,23 @@
-class User {
-    name: string = 'Augusto'
-    age: number = 20
+class Account {
+    name: string
+    accountNumber: number
 
-    constructor(name: string, age: number){
+    constructor(name: string, accountNumber: number){
         this.name = name
-        this.age = age
+        this.accountNumber = accountNumber
     }
 
-    showName = () => {
-        console.log(this.name)
+    deposit = () => {
+        console.log('Voce depositou')
+    }
+
+    withdraw = () => {
+        console.log('Voce sacou')
     }
 }
 
-const user = new User('A', 20)
-user.showName()
+const newAccount: Account = new Account('Nath', 1)
+console.log(newAccount)
 
-const otheruser = new User('B', 35)
-user.showName()
+const account: Account = new Account('Joao', 2)
+console.log(newAccount)
