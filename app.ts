@@ -16,8 +16,20 @@ class Account {
     }
 }
 
-const newAccount: Account = new Account('Nath', 1)
-console.log(newAccount)
+class Admin {
+    balance: number
+
+    constructor(){
+        this.balance = 20
+    }
+
+    getBalance = () => {
+        console.log(this.balance)
+    }
+}
+
+const adminAccount: Admin = new Admin()
+console.log(adminAccount)
 
 const account: Account = new Account('Joao', 2)
-console.log(newAccount)
+console.log(Account)

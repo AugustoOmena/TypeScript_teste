@@ -11,7 +11,15 @@ class Account {
         this.accountNumber = accountNumber;
     }
 }
-const newAccount = new Account('Nath', 1);
-console.log(newAccount);
+class Admin {
+    constructor() {
+        this.getBalance = () => {
+            console.log(this.balance);
+        };
+        this.balance = 20;
+    }
+}
+const adminAccount = new Admin();
+console.log(adminAccount);
 const account = new Account('Joao', 2);
-console.log(newAccount);
+console.log(Account);
