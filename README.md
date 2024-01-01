@@ -29,7 +29,7 @@ The main goal of this repository is to provide an environment where you can:
 1. Clone this repository: `git clone https://github.com/your-username/typescript-oop-studies.git`
 2. Navigate to the project directory: `cd typescript-oop-studies`
 3. Install dependencies: `npm install`
-4. Run tests: `npm test`
+4. Run tests: `npm run dev`
 5. Explore code examples and practical projects in the `/src` folder.
 
 ## Contribution
