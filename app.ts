@@ -4,7 +4,5 @@ import { PeopleAccount } from './class/PeopleAccount'
 
 
 const peopleaccount: PeopleAccount = new PeopleAccount(1, 'Nath', 10)
+console.log(peopleaccount)
 peopleaccount.deposit()
-
-const companyAccount: CompanyAccount = new CompanyAccount('Dio', 20)
-companyAccount.deposit()
